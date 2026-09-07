@@ -1,0 +1,15 @@
+# Python Environment
+venv/
+__pycache__/
+*.pyc
+
+# Secrets and API Keys (CRITICAL: Never upload these!)
+.env
+
+# IDE and System Files
+.vscode/
+.idea/
+.DS_Store
+
+# Temporary Database Files (If i ever switch Qdrant from memory to disk)
+qdrant_storage/
